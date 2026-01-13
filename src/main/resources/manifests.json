@@ -1,0 +1,11 @@
+[
+  {
+    "Group": "Community",
+    "Name": "Zoom",
+    "Version": "0.1.0",
+    "Description": "Adds a toggleable zoom camera mode.",
+    "Website": "https://example.com",
+    "Main": "com.hytale.zoom.ZoomPlugin",
+    "ServerVersion": "*"
+  }
+]
