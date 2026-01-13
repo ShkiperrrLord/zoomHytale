@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.hytale'
+version = '0.1.0'
+
+def hytaleServerJar = file('HytaleServer.jar')
+
+dependencies {
+    compileOnly files(hytaleServerJar)
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+jar {
+    from('src/main/resources')
+}
